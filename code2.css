@@ -1,0 +1,33 @@
+/*css*/
+body {
+	background-color: lightblue;
+}
+
+#mainBody{
+ max-width: 1000px; 
+ text-align: center; 
+ background-color: grey;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+#hone3{
+ max-width: 1000px;
+ color: blue;
+ text-align: center; 
+ background-color: grey; 
+}
+#imagesGrid{
+	text-align: center;
+	margin: 0 auto;
+}
+img {
+	width: 90%;
+	cursor: pointer;
+}
+
+img:hover {
+	transform: scale(1.1,1.1);
+	box-shadow: 5px 5px black;
+	border-radius: 20px;
+} 
